@@ -249,10 +249,11 @@ header .desktop {
   #sign-up-section {
     max-width: 100%;
     height: auto;
+    font-size: 20%;
     /*height: 20rem;*/
     padding-top: 48px;
-    /*background-image: url("../images/mobile-banner-landingpage.jpg");*/
-    background-image: url("../images/banner-landingpage.jpg");
+    background-image: url("../images/mobile-banner-landingpage.jpg");
+    /*background-image: url("../images/banner-landingpage.jpg");
     /*background-size: 100% 100%;*/
 
   }
