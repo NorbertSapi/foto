@@ -146,9 +146,9 @@ header .desktop {
   padding-bottom: 170px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  max-width: 100%;
-  height: auto;
+  background-position: center center;background-attachment: fixed;
+  /*max-width: 100%;*/
+  /*height: auto;*/
 }
 
 #sign-up-cta {
@@ -202,18 +202,21 @@ header .desktop {
   border-radius: 4px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
     background-image: url("../images/banner-landingpage.jpg");
     background-size: 100% 100%;
+    
   }
 }
 
 
   /* Hide the joining question */
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 768px) {
+
+    
     .header {
       /*display: none;*/
     }
@@ -245,20 +248,29 @@ header .desktop {
   }
 }
 
+/*@media only screen and (min-width: 320px) and (max-width: 480px) {*/
+
 @media only screen and (max-width: 320px) {
+  .header {
+    display: none;
+  }
+
   #sign-up-section {
-    max-width: 100%;
+    max-width: 10%;
     height: auto;
-    font-size: 20%;
-    /*height: 20rem;*/
+    font-size: 10%;
+    height: 20rem;
     padding-top: 48px;
-    background-image: url("../images/mobile-banner-landingpage.jpg");
-    /*background-image: url("../images/banner-landingpage.jpg");
-    /*background-size: 100% 100%;*/
+    background-image: url("../images/ic-logo.svg");
+    /*background-image: url("../images/banner-landingpage.jpg");*/
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
   }
 
-  #sign-up-cta{
+  #sign-up-cta {
     display:none;
   }
 
@@ -271,10 +283,10 @@ header .desktop {
   }
 }
 
-/* Features Section */
+/* Features Section --------------------------------------------------------------- */
 
 #features-section {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
@@ -284,7 +296,8 @@ header .desktop {
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
-  background-color: white;
+  /*background-color: white;*/
+  background-color: rgb(46, 9, 207);
 }
 
 .feature .image-container {
