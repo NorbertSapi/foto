@@ -140,15 +140,17 @@ header .desktop {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("../images/banner-landingpage.jpg");
+  /*background-image: url("../images/banner-landingpage.jpg");*/
+  background-image: url("../images/filter-3.png");
   padding-top: 170px;
   padding-left: 100px;
   padding-bottom: 170px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;background-attachment: fixed;
-  /*max-width: 100%;*/
-  /*height: auto;*/
+  background-position: center center;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: auto;
 }
 
 #sign-up-cta {
@@ -156,7 +158,7 @@ header .desktop {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
-  
+  line-height: 1.4em;
 }
 
 #sign-up-cta .content {
@@ -206,9 +208,13 @@ header .desktop {
   #sign-up-section {
     align-items: center;
     justify-content: center;
-    background-image: url("../images/banner-landingpage.jpg");
-    background-size: 100% 100%;
-    
+    background-image: url("../images/m-banner-landingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -249,7 +255,7 @@ header .desktop {
 }
 
 /*@media only screen and (min-width: 320px) and (max-width: 480px) {*/
-
+  
 @media only screen and (max-width: 320px) {
   .header {
     display: none;
@@ -258,10 +264,10 @@ header .desktop {
   #sign-up-section {
     max-width: 10%;
     height: auto;
-    font-size: 10%;
+    font-size: 1em;
     height: 20rem;
     padding-top: 48px;
-    background-image: url("../images/ic-logo.svg");
+    /*background-image: url("../images/ic-logo.svg");*/
     /*background-image: url("../images/banner-landingpage.jpg");*/
     background-size: 10%;
     background-position: center;
