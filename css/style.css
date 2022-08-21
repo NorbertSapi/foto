@@ -140,11 +140,10 @@ header .desktop {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  /*background-image: url("../images/banner-landingpage.jpg");*/
-  background-image: url("../images/filter-3.png");
-  padding-top: 170px;
-  padding-left: 100px;
-  padding-bottom: 170px;
+  background-image: url("../images/banner-landingpage.jpg");
+  padding-top: 10.625rem;
+  padding-left: 6.25rem;
+  padding-bottom: 10.625rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -184,7 +183,7 @@ header .desktop {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
 #sign-up-cta .striking {
@@ -192,8 +191,7 @@ header .desktop {
   padding-bottom: .75rem;
   margin-bottom: 12px;
   margin-bottom: 26px;
-  font-size: 50px;
-  line-height: 1.4;
+  font-size: 3.125rem;
 }
 
 
@@ -220,7 +218,7 @@ header .desktop {
 
 
   /* Hide the joining question */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 
   #sign-up-cta {
@@ -258,16 +256,13 @@ header .desktop {
   #sign-up-section {
     max-width: 10%;
     height: auto;
-    font-size: 1em;
+    font-size: 20%;
     height: 20rem;
     padding-top: 48px;
-    /*background-image: url("../images/ic-logo.svg");*/
-    /*background-image: url("../images/banner-landingpage.jpg");*/
-    background-size: 10%;
+    background-image: url("../images/m-banner-landingpage.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-
   }
 
   #sign-up-cta {
