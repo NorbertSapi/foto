@@ -222,12 +222,6 @@ header .desktop {
   /* Hide the joining question */
   @media screen and (max-width: 768px) {
 
-    
-    .header {
-      /*display: none;*/
-    }
-  
-
 
   #sign-up-cta {
     position: static;
@@ -255,7 +249,7 @@ header .desktop {
 }
 
 /*@media only screen and (min-width: 320px) and (max-width: 480px) {*/
-  
+
 @media only screen and (max-width: 320px) {
   .header {
     display: none;
@@ -290,7 +284,7 @@ header .desktop {
 }
 
 /* Features Section --------------------------------------------------------------- */
-
+/*
 #features-section {
   display: inline-flex;
   justify-content: space-between;
@@ -302,7 +296,7 @@ header .desktop {
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
-  /*background-color: white;*/
+  /*background-color: white;***************
   background-color: rgb(46, 9, 207);
 }
 
@@ -351,7 +345,7 @@ header .desktop {
   }
 }
 
-/* Filters Section */
+/* Filters Section *********************
 
 #filters-section {
   padding: 4rem 0;
@@ -411,7 +405,7 @@ header .desktop {
   }
 }
 
-/* Quotes Section */
+/* Quotes Section *****************************
 
 #quotes-section {
   background-color: #f3f3f3;
@@ -451,7 +445,7 @@ header .desktop {
   }
 }
 
-/* Footer */
+/* Footer ***************************************
 
 footer {
   background-color: #9b9b9b;
@@ -473,3 +467,5 @@ footer .copyright {
     font-size: .625rem;
   }
 }
+
+*/
