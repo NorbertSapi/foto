@@ -254,11 +254,10 @@ header .desktop {
   }
 
   #sign-up-section {
-    max-width: 10%;
-    height: auto;
-    font-size: 20%;
-    height: 20rem;
+
+    font-size: 0.5rem;
     padding-top: 48px;
+    
     background-image: url("../images/m-banner-landingpage.jpg");
     background-size: cover;
     background-position: center;
@@ -267,14 +266,15 @@ header .desktop {
 
   #sign-up-cta {
     display:none;
+    font-size: 0.5rem;
   }
 
   #sign-up-cta h1 {
-    font-size: 2.25rem;
+    font-size: 0.5rem;
   }
 
   #sign-up-cta h2 {
-    font-size: 2rem;
+    font-size: 0.5rem;
   }
 }
 
