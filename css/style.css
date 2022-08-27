@@ -255,11 +255,11 @@ header .desktop {
 
   #sign-up-section {
 
-    font-size: 0.5rem;
+    font-size: 0.5%;
     padding-top: 48px;
     
     background-image: url("../images/m-banner-landingpage.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
   }
