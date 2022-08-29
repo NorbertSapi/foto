@@ -141,14 +141,19 @@ header .desktop {
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url("../images/banner-landingpage.jpg");
-  padding-top: 10.625rem;
-  padding-left: 6.25rem;
-  padding-bottom: 10.625rem;
+  /*padding-top: 10.625em;
+  padding-left: 6.25em;
+  padding-bottom: 10.625em;*/
+
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  max-width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -190,8 +195,7 @@ header .desktop {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
   margin-bottom: 12px;
-  margin-bottom: 26px;
-  font-size: 3.125rem;
+  font-size: 2.5rem;
 }
 
 
@@ -246,9 +250,11 @@ header .desktop {
   }
 }
 
-/*@media only screen and (min-width: 320px) and (max-width: 480px) {*/
+/*@media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 390px) {
+  */
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .header {
     display: none;
   }
@@ -256,17 +262,20 @@ header .desktop {
   #sign-up-section {
 
     font-size: 0.5%;
-    padding-top: 48px;
+    padding: 0px;
     
     background-image: url("../images/m-banner-landingpage.jpg");
     /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
   }
 
   #sign-up-cta {
     display:none;
-    font-size:smaller;
+    font-size: 0.5%;
+    padding: 0.5px;
+    text-align: center;
   }
 
   #sign-up-cta h1 {
@@ -274,7 +283,8 @@ header .desktop {
   }
 
   #sign-up-cta h2 {
-    font-size: 0.5rem;
+    font-size: 0.5%;
+
   }
 }
 
